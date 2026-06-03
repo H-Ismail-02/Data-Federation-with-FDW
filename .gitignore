@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data (Optional: we can ignore local data so we don't upload thousands of rows)
+data/local/customers.csv
+data/external/external_orders.csv
+# But keep the folders
+!data/
+!data/local/
+!data/external/
+
+# Streamlit
+.streamlit/
+
+# Reports and Presentations
+report/
